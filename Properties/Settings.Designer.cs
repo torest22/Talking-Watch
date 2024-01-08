@@ -8,22 +8,133 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Talking_Watch.Properties
-{
-
-
+namespace Talking_Watch.Properties {
+    
+    
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
-    {
-
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.8.0.0")]
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
-
-        public static Settings Default
-        {
-            get
-            {
+        
+        public static Settings Default {
+            get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string AlertTextBoxSave1 {
+            get {
+                return ((string)(this["AlertTextBoxSave1"]));
+            }
+            set {
+                this["AlertTextBoxSave1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::System.DateTime AlertTimeSave1 {
+            get {
+                return ((global::System.DateTime)(this["AlertTimeSave1"]));
+            }
+            set {
+                this["AlertTimeSave1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string AlertTextBoxSave2 {
+            get {
+                return ((string)(this["AlertTextBoxSave2"]));
+            }
+            set {
+                this["AlertTextBoxSave2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string AlertTextBoxSave3 {
+            get {
+                return ((string)(this["AlertTextBoxSave3"]));
+            }
+            set {
+                this["AlertTextBoxSave3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string AlertTextBoxSave4 {
+            get {
+                return ((string)(this["AlertTextBoxSave4"]));
+            }
+            set {
+                this["AlertTextBoxSave4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string AlertTextBoxSave5 {
+            get {
+                return ((string)(this["AlertTextBoxSave5"]));
+            }
+            set {
+                this["AlertTextBoxSave5"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::System.DateTime AlertTimeSave2 {
+            get {
+                return ((global::System.DateTime)(this["AlertTimeSave2"]));
+            }
+            set {
+                this["AlertTimeSave2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::System.DateTime AlertTimeSave3 {
+            get {
+                return ((global::System.DateTime)(this["AlertTimeSave3"]));
+            }
+            set {
+                this["AlertTimeSave3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::System.DateTime AlertTimeSave4 {
+            get {
+                return ((global::System.DateTime)(this["AlertTimeSave4"]));
+            }
+            set {
+                this["AlertTimeSave4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::System.DateTime AlertTimeSave5 {
+            get {
+                return ((global::System.DateTime)(this["AlertTimeSave5"]));
+            }
+            set {
+                this["AlertTimeSave5"] = value;
             }
         }
     }
